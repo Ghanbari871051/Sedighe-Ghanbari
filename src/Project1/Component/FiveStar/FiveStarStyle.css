@@ -1,0 +1,40 @@
+.fiveStar-component .rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.fiveStar-component .btnsubmit {
+  color: whitesmoke;
+  background-color: #A1E2D9;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.fiveStar-component .btnsubmit:hover {
+  color: white;
+}
+.fiveStar-component .emptySend {
+  color: gold;
+  cursor: pointer;
+}
+.fiveStar-component .showRate {
+  color: gray;
+  font-size: 11px;
+}
+.fiveStar-component input[type=radio] {
+  display: none;
+}
+.fiveStar-component label {
+  font-size: 25px;
+  cursor: pointer;
+}
+.fiveStar-component .filled {
+  color: gold;
+}
+.fiveStar-component .half {
+  color: gold;
+  /* Color for half-filled stars */
+}
+.fiveStar-component .empty {
+  color: gray;
+}/*# sourceMappingURL=FiveStarStyle.css?.map */

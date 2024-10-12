@@ -1,0 +1,26 @@
+.profile-component {
+    padding: 10px 35px 10px 5px;
+    .parent-edit-icon {
+        position: relative;
+        //   margin-bottom: 15px;
+    }
+
+    .edit-icon {
+        position: absolute;
+        top: 5px;
+        right: -20px;
+    }
+
+    .edit-icon:hover {
+        color: gray;
+        cursor: pointer;
+    }
+
+    .btn-update {
+        margin-left: 5px;
+    }
+
+    .text-about {
+        display: block;
+    }
+}

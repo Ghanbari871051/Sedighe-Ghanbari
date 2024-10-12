@@ -1,0 +1,55 @@
+.fiveStar-component {
+    .rating {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .btnsubmit {
+        color: whitesmoke;
+        background-color: #A1E2D9;
+        border: none;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+
+    .btnsubmit:hover {
+        color: white;
+    }
+
+    .emptySend {
+        color: gold;
+        cursor: pointer;
+    }
+
+    .showRate {
+        color: gray;
+        font-size: 11px;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    label {
+        font-size: 25px;
+        cursor: pointer;
+        // color: gold;
+    }
+
+  
+    .filled {
+        color: gold;
+    }
+
+    .half {
+
+        color: gold;
+        /* Color for half-filled stars */
+
+    }
+
+    .empty {
+        color: gray;
+    }
+}

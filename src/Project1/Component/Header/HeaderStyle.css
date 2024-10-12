@@ -1,0 +1,37 @@
+.header-component {
+  background-color: #333;
+  position: relative;
+  color: whitesmoke;
+}
+.header-component .UI {
+  z-index: 8;
+}
+@media only screen and (max-width: 767px) {
+  .header-component .nav-menu-header {
+    display: none !important;
+  }
+  .header-component .mobile-menu-header {
+    display: flex !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-component .nav-menu-header {
+    display: flex !important;
+  }
+  .header-component .mobile-menu-header {
+    display: none !important;
+  }
+}
+.header-component .headermail {
+  color: whitesmoke;
+  margin-left: 15px;
+}
+.header-component .headermail:hover {
+  color: #A1E2D9;
+}
+.header-component .unsetPosition {
+  position: unset !important;
+}
+.header-component .pad-p {
+  padding-right: 15px;
+}/*# sourceMappingURL=HeaderStyle.css?.map */

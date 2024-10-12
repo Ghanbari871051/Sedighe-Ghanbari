@@ -1,0 +1,21 @@
+.profile-component {
+  padding: 10px 35px 10px 5px;
+}
+.profile-component .parent-edit-icon {
+  position: relative;
+}
+.profile-component .edit-icon {
+  position: absolute;
+  top: 5px;
+  right: -20px;
+}
+.profile-component .edit-icon:hover {
+  color: gray;
+  cursor: pointer;
+}
+.profile-component .btn-update {
+  margin-left: 5px;
+}
+.profile-component .text-about {
+  display: block;
+}/*# sourceMappingURL=ProfileStyle.css?.map */

@@ -1,0 +1,649 @@
+.ShoppingCard-component {
+  width: 100%;
+  position: relative;
+  padding: 10px 40px 10px 5px;
+}
+.ShoppingCard-component .product {
+  padding: 30px 15px 0px 15px;
+  position: relative;
+}
+.ShoppingCard-component .div-Alert {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.ShoppingCard-component .hr-items {
+  color: #A1E2D9;
+}
+.ShoppingCard-component .product-close {
+  position: absolute;
+  background-color: #A1E2D9;
+  top: 10px;
+  right: 5px;
+  color: whitesmoke;
+  padding: 3px;
+  border-radius: 5px;
+}
+.ShoppingCard-component .product-close:hover {
+  color: white;
+  cursor: pointer;
+}
+.ShoppingCard-component .shop-filters {
+  padding-left: 15px;
+  font-size: 12px;
+  display: inline;
+}
+.ShoppingCard-component .shopping-cart {
+  padding-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+.ShoppingCard-component .shopping-cart .content {
+  border: 1px solid #A1E2D9;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+  background-color: white;
+  border-radius: 5px;
+}
+@media (max-width: 1199px) {
+  .ShoppingCard-component .shopping-cart .summary {
+    padding: 5px !important;
+  }
+}
+.ShoppingCard-component .shopping-cart .summary {
+  border-top: 2px solid #5ea4f3;
+  background-color: #f7fbff;
+  height: 100%;
+  padding: 30px;
+}
+.ShoppingCard-component .shopping-cart .summary h3 {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ShoppingCard-component .shopping-cart .summary .summary-item:not(:last-of-type) {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.ShoppingCard-component .shopping-cart .summary .text {
+  font-size: 1em;
+  font-weight: 600;
+}
+.ShoppingCard-component .shopping-cart .summary .price {
+  font-size: 1em;
+  float: right;
+}
+.ShoppingCard-component .shopping-cart .summary button {
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .ShoppingCard-component .shopping-cart .items .product .info {
+    text-align: left;
+  }
+  .ShoppingCard-component .shopping-cart .items .product .info .price {
+    font-weight: bold;
+    font-size: 22px;
+    top: 17px;
+  }
+  .ShoppingCard-component .shopping-cart .items .product .info .quantity {
+    text-align: center;
+  }
+  .ShoppingCard-component .shopping-cart .items .product .info .quantity .quantity-input {
+    padding: 4px 10px;
+    text-align: center;
+  }
+}
+.ShoppingCard-component .price {
+  font-size: 16px;
+}
+.ShoppingCard-component .original-price {
+  text-decoration: line-through;
+  color: red;
+  position: relative;
+}
+.ShoppingCard-component .discounted-price {
+  color: green;
+}
+.ShoppingCard-component .total-count {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.ShoppingCard-component .ribbon {
+  width: 49px;
+  font-size: 14px;
+  padding: 0;
+  position: absolute;
+  right: -50px;
+  top: -5px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #ff9800;
+  color: white;
+}
+.ShoppingCard-component .image {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.ShoppingCardIcon-component {
+  position: relative;
+}
+.ShoppingCardIcon-component .count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: whitesmoke;
+  padding: 2px 3px;
+  border-radius: 15%;
+  font-size: 10px;
+}
+.ShoppingCardIcon-component .showShoppingCard {
+  position: absolute;
+  color: black;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  width: 80vw;
+}
+@media (max-width: 1199px) {
+  .ShoppingCardIcon-component .showShoppingCard {
+    top: 30px;
+    left: -80px;
+    width: 100vw;
+  }
+}
+
+.myOrder-component {
+  position: relative;
+  padding: 25px 25px;
+  background-color: #f5f5f5;
+}
+.myOrder-component .ticketid {
+  color: #A1E2D9;
+  margin-right: 10px;
+}
+.myOrder-component .time-last {
+  margin-left: 15px;
+}
+.myOrder-component .attach {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #A1E2D9 !important;
+}
+.myOrder-component .ticket-title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.myOrder-component .ticketPlus {
+  color: whitesmoke;
+  margin-bottom: 10px;
+  background-color: #A1E2D9;
+  border-color: #A1E2D9;
+}
+.myOrder-component .ticketPlus:hover {
+  color: white;
+}
+.myOrder-component .tickets-container {
+  position: relative;
+  padding: 25px 25px;
+  background-color: #f5f5f5;
+}
+.myOrder-component .ticket-state i {
+  font-size: 13px;
+  color: #fff;
+  line-height: 20px;
+}
+.myOrder-component .ticket-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 13px;
+  right: -12px;
+  height: 24px;
+  width: 24px;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  background-color: #e5e5e5;
+  text-align: center;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+}
+.myOrder-component .bg-palegreen {
+  background-color: #a0d468 !important;
+}
+.myOrder-component .type {
+  color: #999;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.myOrder-component .ticket-type {
+  line-height: 30px;
+  height: 50px;
+  padding: 10px;
+}
+.myOrder-component .ticket-time i {
+  color: #ccc;
+  width: 50px;
+}
+.myOrder-component .divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 1px;
+  background-color: #eee;
+  display: inline-block;
+}
+.myOrder-component .ticket-time {
+  line-height: 30px;
+  height: 50px;
+  padding: 10px;
+}
+.myOrder-component .user-company {
+  margin-left: 2px;
+  color: #999;
+}
+.myOrder-component .user-at {
+  margin-left: 2px;
+  color: #ccc;
+  font-size: 13px;
+}
+.myOrder-component .user-name {
+  margin-left: 5px;
+  font-size: 13px;
+}
+.myOrder-component .user-avatar {
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+}
+.myOrder-component .ticket-user {
+  height: 50px;
+  padding: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.myOrder-component .ticket-item {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  margin-bottom: 8px;
+  padding: 0 15px;
+  vertical-align: top;
+}
+.myOrder-component .ticket-item:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.myOrder-component .tickets-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.myOrder-component .widget-main {
+  padding: 12px;
+}
+.myOrder-component .no-padding {
+  padding: 0 !important;
+}
+.myOrder-component .widget-body {
+  background-color: #fbfbfb;
+  box-shadow: 1px 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+.myOrder-component .widget-header > .widget-caption {
+  line-height: 33px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  text-align: left;
+  font-weight: 400 !important;
+  font-size: 13px;
+}
+.myOrder-component .widget-icon {
+  display: block;
+  width: 30px;
+  height: 32px;
+  position: relative;
+  float: left;
+  font-size: 111%;
+  line-height: 32px;
+  text-align: center;
+  margin-left: -10px;
+}
+.myOrder-component .themesecondary {
+  color: #5bc0de !important;
+}
+.myOrder-component .widget-header.bordered-bottom {
+  border-bottom: 3px solid #fff;
+}
+.myOrder-component .widget-header {
+  position: relative;
+  min-height: 35px;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  color: #555;
+  padding-left: 12px;
+  text-align: right;
+}
+.myOrder-component .bordered-themesecondary {
+  border-color: #5bc0de !important;
+}
+.myOrder-component .widget-box {
+  padding: 0;
+  box-shadow: none;
+  margin: 3px 0 30px 0;
+}
+
+.orderDetails-component .user-info-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: -1px;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  border: 1px solid #e1e7ec;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  overflow: hidden;
+}
+.orderDetails-component .user-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-position: center;
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.orderDetails-component .tooltip-inner {
+  width: 230px;
+  max-width: 100%;
+  padding: 10px 15px;
+}
+.orderDetails-component .info-label {
+  display: block;
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  height: 26px;
+  padding: 0 12px;
+  border-radius: 13px;
+  background-color: #fff;
+  color: #606975;
+  font-size: 12px;
+  line-height: 26px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+}
+.orderDetails-component .info-label > i {
+  display: inline-block;
+  margin-right: 3px;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+.orderDetails-component .user-info {
+  display: table;
+  position: relative;
+  width: 100%;
+  padding: 0 18px;
+  z-index: 5;
+}
+.orderDetails-component .user-avatar,
+.orderDetails-component .user-data {
+  display: table-cell;
+  vertical-align: top;
+}
+.orderDetails-component .user-avatar {
+  position: relative;
+  width: 115px;
+}
+.orderDetails-component .user-avatar > img {
+  display: block;
+  width: 100%;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+.orderDetails-component .edit-avatar {
+  display: block;
+  position: absolute;
+  top: -2px;
+  right: 2px;
+  width: 36px;
+  height: 36px;
+  transition: opacity 0.3s;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #606975;
+  line-height: 34px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  opacity: 0;
+  text-align: center;
+  text-decoration: none;
+}
+.orderDetails-component .edit-avatar::before {
+  font-family: feather;
+  font-size: 17px;
+  content: "\e058";
+}
+.orderDetails-component .user-avatar:hover .edit-avatar {
+  opacity: 1;
+}
+.orderDetails-component .user-data {
+  padding-top: 48px;
+  padding-left: 12px;
+}
+.orderDetails-component .user-data h4 {
+  margin-bottom: 2px;
+}
+.orderDetails-component .user-data span {
+  display: block;
+  color: #9da9b9;
+  font-size: 13px;
+}
+.orderDetails-component .list-group-item:first-child {
+  border-radius: 0;
+}
+.orderDetails-component .list-group-item:first-child {
+  border-radius: 0;
+}
+.orderDetails-component .list-group-item:first-child {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.orderDetails-component .list-group-item:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.orderDetails-component a.list-group-item {
+  padding-top: 0.87rem;
+  padding-bottom: 0.87rem;
+}
+.orderDetails-component a.list-group-item,
+.orderDetails-component .list-group-item-action {
+  transition: all 0.25s;
+  color: #606975;
+  font-weight: 500;
+}
+.orderDetails-component .with-badge {
+  position: relative;
+  padding-right: 3.3rem;
+}
+.orderDetails-component .list-group-item {
+  border-color: #e1e7ec;
+  background-color: #fff;
+  text-decoration: none;
+}
+.orderDetails-component .list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.orderDetails-component .badge.badge-primary {
+  background-color: #0da9ef;
+}
+.orderDetails-component .badge {
+  position: absolute;
+  top: 50%;
+  right: 1.15rem;
+  transform: translateY(-50%);
+}
+.orderDetails-component .list-group-item i {
+  margin-top: -4px;
+  margin-right: 8px;
+  font-size: 1.1em;
+}
+.orderDetails-component .comment {
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 66px;
+}
+.orderDetails-component .comment-author-ava {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.orderDetails-component .comment-author-ava > img {
+  display: block;
+  width: 100%;
+}
+.orderDetails-component .comment-body {
+  position: relative;
+  padding: 24px;
+  border: 1px solid #e1e7ec;
+  border-radius: 7px;
+  background-color: #fff;
+}
+.orderDetails-component .comment-body::after,
+.orderDetails-component .comment-body::before {
+  position: absolute;
+  top: 12px;
+  right: 100%;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  content: "";
+  pointer-events: none;
+}
+.orderDetails-component .comment-body::after {
+  border-width: 9px;
+  border-color: transparent;
+  border-right-color: #fff;
+}
+.orderDetails-component .comment-body::before {
+  margin-top: -1px;
+  border-width: 10px;
+  border-color: transparent;
+  border-right-color: #e1e7ec;
+}
+.orderDetails-component .comment-title {
+  margin-bottom: 8px;
+  color: #606975;
+  font-size: 14px;
+  font-weight: 500;
+}
+.orderDetails-component .comment-text {
+  margin-bottom: 12px;
+}
+.orderDetails-component .comment-footer {
+  display: table;
+  width: 100%;
+}
+.orderDetails-component .comment-footer > .column {
+  display: table-cell;
+  vertical-align: middle;
+}
+.orderDetails-component .comment-footer > .column:last-child {
+  text-align: right;
+}
+.orderDetails-component .comment-meta {
+  color: #9da9b9;
+  font-size: 13px;
+}
+.orderDetails-component .reply-link {
+  transition: color 0.3s;
+  color: #606975;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.orderDetails-component .reply-link > i {
+  display: inline-block;
+  margin-top: -3px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.orderDetails-component .reply-link:hover {
+  color: #0da9ef;
+}
+.orderDetails-component .comment-reply {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+@media (max-width: 576px) {
+  .orderDetails-component .comment {
+    padding-left: 0;
+  }
+  .orderDetails-component .comment-author-ava {
+    display: none;
+  }
+  .orderDetails-component .comment-body {
+    padding: 15px;
+  }
+  .orderDetails-component .comment-body::before,
+  .orderDetails-component .comment-body::after {
+    display: none;
+  }
+}
+.orderDetails-component .btn-submit {
+  color: whitesmoke;
+  background-color: #A1E2D9;
+  margin-top: 15px;
+}
+.orderDetails-component .btn-submit:hover {
+  color: white;
+}
+.orderDetails-component .fileInput {
+  margin-top: 10px;
+}
+.orderDetails-component .attach {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #A1E2D9 !important;
+}
+.orderDetails-component .text-right {
+  position: relative;
+}/*# sourceMappingURL=ShoppingCardStyle.css?.map */

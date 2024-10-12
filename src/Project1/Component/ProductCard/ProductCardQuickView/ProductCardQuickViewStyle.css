@@ -1,0 +1,29 @@
+.queikView .btn_view {
+  margin-left: 5px;
+}
+.queikView .inner {
+  margin: 0;
+  padding: 15px;
+  background-color: whitesmoke;
+}
+.queikView .product_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.queikView .product_img img {
+  max-width: 100%;
+  max-height: 300px;
+}
+.queikView .product_img .all_image {
+  max-width: 100%;
+  max-height: 300px;
+  margin-top: 10px;
+}
+.queikView .product_img .all_image-div {
+  max-height: 300px;
+  overflow: scroll;
+}
+.queikView .btn-ground {
+  margin-top: 15px;
+}/*# sourceMappingURL=ProductCardQuickViewStyle.css?.map */

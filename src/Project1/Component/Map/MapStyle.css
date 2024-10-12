@@ -1,0 +1,17 @@
+.map-container {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  margin-top: 35px;
+  width: 100%;
+}
+.map-container img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.map-container .leaflet-zoom-anim {
+  transition: none !important;
+}/*# sourceMappingURL=MapStyle.css?.map */

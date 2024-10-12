@@ -1,0 +1,34 @@
+.search-component {
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .header-search {
+        .btn-outline-success {
+            background-color: whitesmoke;
+            max-width: 100px;
+        }
+    }
+
+    .btn-outline-success {
+        background-color: whitesmoke;
+        max-width: 100px;
+    }
+
+
+
+
+    .flex-right {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .flex-left {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+}

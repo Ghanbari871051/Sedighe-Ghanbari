@@ -1,0 +1,353 @@
+.productcard-component {
+    // padding: 20px;
+    background-color: white;
+    position: relative;
+
+
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Semi-transparent black background */
+    }
+
+    .link {
+        color: inherit;
+        text-decoration: none;
+
+    }
+
+    .link:hover {
+        cursor: pointer;
+    }
+
+    .quickviewModal {
+        padding: 0;
+        margin: 0;
+        // background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .card {
+        // height: 545px;
+        display: inline-flex;
+        margin-top: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-color: #EEE6E6;
+        margin-right: 15px;
+    }
+
+
+
+    .card1 {
+        width: 100%;
+        text-align: center;
+        font-family: arial;
+        padding: 20px;
+
+    }
+
+    .my_modal {
+        position: relative;
+        width: 80vw;
+        height: 80vh;
+    }
+
+    @media (max-width: 1199px) {
+        .my_modal {
+            position: relative;
+            width: 80vw;
+            margin-top: 10vh;
+            height: 60vh;
+            overflow: scroll;
+        }
+
+        .overlay {
+            align-items: flex-start;
+        }
+    }
+
+    .price {
+
+        color: red;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .title {
+        font-size: 14px;
+        color: cadetblue;
+        font-weight: bold;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .description {
+        font-size: 12px;
+        height: 58px;
+        overflow: hidden;
+    }
+
+    .offTag {
+        font-size: 11px;
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        background-color: red;
+        padding: 5px 10px;
+        color: whitesmoke;
+        opacity: 0.8;
+        border-radius: 3px;
+    }
+
+    .newTag {
+        font-size: 12px;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        background-color: #E22D2D;
+        padding: 2px 5px;
+        color: whitesmoke;
+        opacity: 0.8;
+        border-radius: 3px;
+    }
+
+    .div-select-option {
+        width: 100%;
+        background-color: rgba(245, 245, 245, 0.8);
+        height: 220px;
+        position: absolute;
+        top: 0;
+        border-radius: 5px;
+
+        //  opacity: 0.8;
+        .close {
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            color: #E22D2D;
+        }
+
+        .close:hover {
+            cursor: pointer;
+        }
+
+        .button {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin: 0;
+        }
+    }
+
+    .QuickView {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        background-color: whitesmoke;
+        padding: 5px 10px;
+        color: black;
+        border-radius: 3px;
+        display: none;
+
+    }
+
+    .QuickView-text {
+        position: absolute;
+        top: 5px;
+        left: 65px;
+        background-color: black;
+        padding: 5px 10px;
+        color: whitesmoke;
+        border-radius: 3px;
+        display: none;
+        width: max-content;
+    }
+
+    .QuickView-text:after {
+        content: '';
+        position: absolute;
+        left: -5px;
+        top: 9px;
+        border: solid black;
+        border-width: 0 7px 7px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    .QuickView:hover {
+        cursor: pointer;
+
+        .QuickView-text {
+            display: inline;
+            //  animation: fadeIn 1s ease-in-out;
+        }
+    }
+
+    .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: whitesmoke;
+        background-color: green;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 14px;
+        border-radius: 5px;
+
+    }
+
+    .card button:hover {
+        opacity: 0.7;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .card-img-hover {
+        width: 100%;
+        height: 200px;
+    }
+
+    .div-img {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .div-img:hover {
+        .QuickView {
+            display: block;
+        }
+
+        .map {
+            animation: fadeIn 1s ease-in-out;
+            display: block;
+            /* or display: none; */
+        }
+    }
+
+    .map {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: red;
+        width: 100%;
+        display: none;
+    }
+
+    .addtocard {
+        display: block;
+        width: 100%;
+    }
+
+    .card-action-buttons {
+        position: absolute;
+        bottom: -15px;
+        right: 0;
+        margin: -18px 7px 0 0;
+        text-align: right;
+
+        .faClass {
+            padding: 5px;
+            font-size: 20px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2px;
+        }
+    }
+
+    .card-action-buttons li {
+        display: inline-block;
+        padding-left: 7px;
+    }
+
+
+    .fa {
+
+        font-size: 20px;
+    }
+
+
+
+    .fa:hover {
+        opacity: 1;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    .fa-google {
+        background: #dd4b39;
+        color: white;
+    }
+
+    .heart {
+        margin-right: 20px;
+        color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heart:hover {
+        cursor: pointer;
+        color: red;
+    }
+
+    .share {
+        width: 35px;
+        background-color: inherit;
+        color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .share:hover {
+        color: #55ACEE;
+    }
+
+    .Myrating {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+}

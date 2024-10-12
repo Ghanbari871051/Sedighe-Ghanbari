@@ -1,0 +1,117 @@
+.datagrid-component .select-pagination {
+  margin-right: 15px;
+}
+.datagrid-component .datagrid {
+  background-color: white;
+  padding: 15px;
+}
+.datagrid-component .datagrid table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: -moz-max-content;
+  width: max-content;
+  border: 1px solid #ddd;
+  min-width: 100%;
+  overflow: scroll;
+  border: none;
+}
+.datagrid-component .datagrid .div-table-responsive {
+  overflow-x: auto;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+}
+.datagrid-component .datagrid td {
+  padding: 7px !important;
+}
+.datagrid-component .datagrid th,
+.datagrid-component .datagrid td {
+  text-align: left;
+  font-size: 14px;
+  position: relative;
+}
+.datagrid-component .datagrid tbody td i {
+  padding-left: 10px;
+}
+.datagrid-component .datagrid a {
+  text-decoration: none;
+  color: inherit;
+}
+.datagrid-component .datagrid .sort-i {
+  float: right;
+}
+.datagrid-component .datagrid .tr-thead {
+  left: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.datagrid-component .datagrid .tr-thead {
+  position: relative;
+}
+.datagrid-component .datagrid .tr-thead input {
+  padding: 5px;
+}
+.datagrid-component .datagrid .header-column-resize {
+  content: "";
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: transparent;
+  border: 3px solid;
+}
+.datagrid-component .datagrid .header-column-resize:hover {
+  color: slategray;
+  cursor: ew-resize;
+}
+.datagrid-component .datagrid .header-column-resize:active {
+  color: slategray;
+  cursor: ew-resize;
+  height: 100vh;
+  z-index: 300;
+}
+.datagrid-component .datagrid .tr-theadCopy {
+  padding: 7px 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 7px;
+  border: 1px solid gray;
+}
+.datagrid-component .datagrid .tr-theadCopy:hover {
+  position: absolute;
+  top: 0;
+  cursor: all-scroll;
+  z-index: 300;
+}
+.datagrid-component .datagrid .tr-theadCopy:active {
+  position: absolute;
+  top: 0;
+  cursor: all-scroll;
+  z-index: 300;
+}
+.datagrid-component .datagrid .fa {
+  padding: 0 5px;
+}
+.datagrid-component .datagrid .parentforresize {
+  position: relative;
+}
+.datagrid-component .datagrid .sgh1 {
+  padding: auto;
+}
+.datagrid-component .datagrid .sgh2 {
+  padding: a10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.datagrid-component .datagrid .intoTable {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.datagrid-component .datagrid .plus-Grid {
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+}/*# sourceMappingURL=DataGridStyle.css?.map */

@@ -1,0 +1,21 @@
+.alert-component {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: fit-content;
+
+    .AlertClose {
+        // position: absolute;
+        // top: 0;
+        // right: 10px;
+        // color: inherit;
+        margin-left: 10px;
+    }
+
+
+}
+
+.alert-component-Noshow {
+    display: none;
+}

@@ -1,0 +1,25 @@
+.search-component {
+  padding: 10px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-component .header-search .btn-outline-success {
+  background-color: whitesmoke;
+  max-width: 100px;
+}
+.search-component .btn-outline-success {
+  background-color: whitesmoke;
+  max-width: 100px;
+}
+.search-component .flex-right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.search-component .flex-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}/*# sourceMappingURL=SearchStyle.css?.map */

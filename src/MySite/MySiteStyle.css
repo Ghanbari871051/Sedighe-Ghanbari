@@ -1,0 +1,1064 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "IranYekan";
+  src: url("./Font/BYekan/BYekan+ Bold.ttf") format("ttf");
+  font-family: "yekanbakh";
+  src: url("./Font/YekanBakh/YekanBakhRegular.ttf") format("ttf");
+  /* مسیر فایل فونت و نوع فرمت آن را مشخص کنید */
+}
+.MySite-Project {
+  /**
+  * Template Name: iPortfolio
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  */
+  /*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Back to top button
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /* Desktop Navigation */
+  /* Mobile Navigation */
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Facts
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Akills
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Resume
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Portfolio
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Portfolio Details
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Services
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Testimonials
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Contact
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Breadcrumbs
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+}
+.MySite-Project body {
+  color: #272829;
+}
+.MySite-Project a {
+  color: #fff;
+  text-decoration: none;
+}
+.MySite-Project a:hover {
+  text-decoration: none;
+}
+.MySite-Project .back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: darkgoldenrod;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.MySite-Project .back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+.MySite-Project .back-to-top:hover {
+  color: #fff;
+}
+.MySite-Project .back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+.MySite-Project #header {
+  border-right: 2px solid darkgoldenrod;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #040b14;
+  overflow-y: auto;
+}
+.MySite-Project .img-about {
+  border: 1px solid darkgoldenrod;
+  border-radius: 5px;
+}
+.MySite-Project #header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  border: 3px solid darkgoldenrod;
+}
+.MySite-Project #header .profile h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+.MySite-Project #header .profile h1 a,
+.MySite-Project #header .profile h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.MySite-Project #header .profile .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.MySite-Project #header .profile .social-links a:hover {
+  background: darkgoldenrod;
+  color: #fff;
+  text-decoration: none;
+}
+.MySite-Project .img-portfolio {
+  width: 100%;
+  height: 200px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+.MySite-Project .container,
+.MySite-Project .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.MySite-Project .nav-menu {
+  padding: 30px 0 0 0;
+}
+.MySite-Project .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.MySite-Project .nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+}
+.MySite-Project .nav-menu a,
+.MySite-Project .nav-menu a:focus {
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 5px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+.MySite-Project .nav-menu a i,
+.MySite-Project .nav-menu a:focus i {
+  font-size: 24px;
+  color: #6f7180;
+}
+.MySite-Project .nav-menu a:hover,
+.MySite-Project .nav-menu .active,
+.MySite-Project .nav-menu .active:focus,
+.MySite-Project .nav-menu li:hover > a {
+  text-decoration: none;
+  color: #fff;
+}
+.MySite-Project .nav-menu a:hover i,
+.MySite-Project .nav-menu .active i,
+.MySite-Project .nav-menu .active:focus i,
+.MySite-Project .nav-menu li:hover > a i {
+  color: darkgoldenrod;
+}
+.MySite-Project .mobile-nav-toggle {
+  position: fixed;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: darkgoldenrod;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.MySite-Project .mobile-nav-active {
+  overflow: hidden;
+}
+.MySite-Project .mobile-nav-active #header {
+  left: 0;
+}
+.MySite-Project #hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../../public/Images/MySite/hero-bg.jpg") top center;
+  background-size: cover;
+}
+.MySite-Project #hero:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.MySite-Project #hero .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 350px;
+  text-align: center;
+}
+.MySite-Project #hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+.MySite-Project #hero p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+}
+.MySite-Project #hero p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid darkgoldenrod;
+}
+@media (min-width: 1024px) {
+  .MySite-Project #hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  .MySite-Project #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .MySite-Project #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+.MySite-Project section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.MySite-Project .section-bg {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+.MySite-Project .section-title {
+  padding-bottom: 30px;
+}
+.MySite-Project .section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #040b14;
+}
+.MySite-Project .section-bg .section-title h2 {
+  color: #fff;
+}
+.MySite-Project .section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: darkgoldenrod;
+  bottom: 0;
+}
+.MySite-Project .section-title p {
+  margin-bottom: 0;
+}
+.MySite-Project .about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+}
+.MySite-Project .about .content ul {
+  list-style: none;
+  padding: 0;
+}
+.MySite-Project .about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.MySite-Project .about .content ul strong {
+  margin-right: 10px;
+}
+.MySite-Project .about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: darkgoldenrod;
+  line-height: 0;
+}
+.MySite-Project .about .content p:last-child {
+  margin-bottom: 0;
+}
+.MySite-Project .facts {
+  padding-bottom: 30px;
+}
+.MySite-Project .facts .count-box {
+  padding: 30px;
+  width: 100%;
+}
+.MySite-Project .facts .count-box i {
+  display: block;
+  font-size: 44px;
+  color: darkgoldenrod;
+  float: left;
+  line-height: 0;
+}
+.MySite-Project .facts .count-box span {
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+  margin-left: 60px;
+}
+.MySite-Project .facts .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 60px;
+  font-size: 14px;
+  color: #122f57;
+}
+.MySite-Project .facts .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #122f57;
+  font-size: 15px;
+  transition: ease-in-out 0.3s;
+}
+.MySite-Project .facts .count-box a:hover {
+  color: darkgoldenrod;
+}
+.MySite-Project .skills .progress {
+  padding: 0px 35px;
+  font-size: 14px;
+  font-weight: normal;
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+  text-align: left;
+}
+.MySite-Project .skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+}
+.MySite-Project .skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.MySite-Project .skills .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+.MySite-Project .skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: darkgoldenrod;
+}
+.MySite-Project .resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.MySite-Project .resume .resume-item {
+  margin-top: -2px;
+  position: relative;
+}
+.MySite-Project .resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.MySite-Project .resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.MySite-Project .resume .resume-item ul {
+  padding-left: 20px;
+}
+.MySite-Project .resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+.MySite-Project .resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+.MySite-Project hr {
+  color: darkgoldenrod;
+}
+.MySite-Project .portfolio-name {
+  color: #040b14;
+}
+.MySite-Project .resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  top: 0;
+  background: #fff;
+  border: 2px solid darkgoldenrod;
+}
+.MySite-Project .portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+.MySite-Project .firsfLittle {
+  color: darkgoldenrod;
+}
+.MySite-Project .item_portfolio_link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #040b14;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+}
+.MySite-Project .item_portfolio_link a {
+  z-index: 2;
+}
+.MySite-Project .item_portfolio_link a:hover {
+  color: darkgoldenrod;
+}
+.MySite-Project .portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 35px auto;
+  list-style: none;
+  text-align: center;
+  background: #fff;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+.MySite-Project .portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #272829;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.MySite-Project .portfolio #portfolio-flters li:hover,
+.MySite-Project .portfolio #portfolio-flters li.filter-active {
+  color: darkgoldenrod;
+}
+.MySite-Project .portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+.MySite-Project .portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+.MySite-Project .portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  background: rgba(20, 157, 221, 0.75);
+  transition: 0.3s;
+  width: 50%;
+}
+.MySite-Project .portfolio .portfolio-wrap .portfolio-links a:hover {
+  background: rgba(20, 157, 221, 0.95);
+}
+.MySite-Project .portfolio .portfolio-wrap .portfolio-links a + a {
+  border-left: 1px solid #37b3ed;
+}
+.MySite-Project .portfolio .portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+.MySite-Project .portfolio .portfolio-wrap:hover .portfolio-links {
+  opacity: 1;
+  bottom: 0;
+}
+.MySite-Project .portfolio-details {
+  padding-top: 40px;
+}
+.MySite-Project .portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+.MySite-Project .portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.MySite-Project .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid darkgoldenrod;
+}
+.MySite-Project .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: darkgoldenrod;
+}
+.MySite-Project .portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
+}
+.MySite-Project .portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.MySite-Project .portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.MySite-Project .portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+.MySite-Project .portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+.MySite-Project .portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.MySite-Project .portfolio-details .portfolio-description p {
+  padding: 0;
+}
+.MySite-Project .services .icon-box {
+  margin-bottom: 20px;
+}
+.MySite-Project .services .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: darkgoldenrod;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid darkgoldenrod;
+}
+.MySite-Project .services .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+.MySite-Project .services .icon-box:hover .icon {
+  background: #fff;
+}
+.MySite-Project .services .icon-box:hover .icon i {
+  color: darkgoldenrod;
+}
+.MySite-Project .services .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.MySite-Project .services .title a {
+  color: #343a40;
+}
+.MySite-Project .services .title a:hover {
+  color: darkgoldenrod;
+}
+.MySite-Project .services .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.MySite-Project .testimonials .testimonials-carousel,
+.MySite-Project .testimonials .testimonials-slider {
+  overflow: hidden;
+}
+.MySite-Project .testimonials .testimonial-item {
+  box-sizing: content-box;
+  text-align: center;
+  min-height: 320px;
+}
+.MySite-Project .testimonials .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.MySite-Project .testimonials .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+.MySite-Project .testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+.MySite-Project .testimonials .testimonial-item .quote-icon-left,
+.MySite-Project .testimonials .testimonial-item .quote-icon-right {
+  color: #c3e8fa;
+  font-size: 26px;
+}
+.MySite-Project .testimonials .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+.MySite-Project .testimonials .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+.MySite-Project .testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 15px 15px 15px;
+  padding: 20px;
+  background: #fff;
+  position: relative;
+  margin-bottom: 35px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.MySite-Project .testimonials .testimonial-item p::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 20px solid #fff;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 20px);
+}
+.MySite-Project .testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.MySite-Project .testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid darkgoldenrod;
+}
+.MySite-Project .testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: darkgoldenrod;
+}
+.MySite-Project .contact {
+  padding-bottom: 50px;
+}
+.MySite-Project .contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.MySite-Project .contact .info i {
+  font-size: 20px;
+  color: darkgoldenrod;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #040b14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.MySite-Project .contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.MySite-Project .contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.MySite-Project .contact .info .email p {
+  padding-top: 5px;
+}
+.MySite-Project .contact .info .social-links {
+  padding-left: 60px;
+}
+.MySite-Project .contact .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+.MySite-Project .contact .info .social-links a:hover {
+  background: darkgoldenrod;
+  color: #fff;
+}
+.MySite-Project .contact .info .email:hover i,
+.MySite-Project .contact .info .address:hover i,
+.MySite-Project .contact .info .phone:hover i {
+  background: darkgoldenrod;
+  color: #fff;
+}
+.MySite-Project .contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.MySite-Project .contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+.MySite-Project .contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+.MySite-Project .contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+.MySite-Project .contact .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+.MySite-Project .contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+.MySite-Project .contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+.MySite-Project .contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+.MySite-Project .contact .php-email-form .form-group {
+  margin-bottom: 15px;
+}
+.MySite-Project .contact .php-email-form label {
+  padding-bottom: 8px;
+}
+.MySite-Project .contact .php-email-form input,
+.MySite-Project .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+.MySite-Project .contact .php-email-form input {
+  height: 44px;
+}
+.MySite-Project .contact .php-email-form textarea {
+  padding: 10px 15px;
+}
+.MySite-Project .contact .php-email-form button[type=submit] {
+  background: #040b14;
+  border: 0;
+  padding: 10px 24px;
+  color: darkgoldenrod;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.MySite-Project .btn-lang {
+  background: darkgoldenrod;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  z-index: 5;
+  position: fixed;
+  top: 12px;
+}
+.MySite-Project .btn-lang:hover {
+  color: #040b14;
+}
+.MySite-Project .contact .php-email-form button[type=submit]:hover {
+  color: #fff;
+}
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.MySite-Project .breadcrumbs {
+  padding: 20px 0;
+  background: #f9f9f9;
+}
+.MySite-Project .breadcrumbs h2 {
+  font-size: 26px;
+  font-weight: 300;
+}
+.MySite-Project .breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+.MySite-Project .breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+.MySite-Project .breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #0e2442;
+  content: "/";
+}
+@media (max-width: 768px) {
+  .MySite-Project .breadcrumbs .d-flex {
+    display: block !important;
+  }
+  .MySite-Project .breadcrumbs ol {
+    display: block;
+  }
+  .MySite-Project .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+.MySite-Project #footer {
+  color: #f4f6fd;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background: #040b14;
+}
+.MySite-Project #footer .copyright {
+  text-align: center;
+}
+.MySite-Project #footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #eaebf0;
+}
+@media (max-width: 1199px) {
+  .MySite-Project #footer {
+    position: static;
+    width: auto;
+    padding-right: 20px 15px;
+  }
+}
+.MySite-Project .glass-hover::after {
+  position: absolute;
+  content: "";
+  width: 108%;
+  height: 100%;
+  top: 0;
+  left: 0%;
+  background: linear-gradient(120deg, transparent 0%, transparent 20%, rgba(255, 255, 255, 0.2) 21%, rgba(255, 255, 255, 0.5) 35%, transparent 36%);
+  background-size: 160%;
+  background-position: 120%;
+}
+.MySite-Project .glass-hover:hover::after {
+  cursor: pointer;
+  animation: glass 550ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 140%;
+}
+.MySite-Project .glass-hover:hover {
+  --alpha: .6;
+  border-radius: 0;
+}
+.MySite-Project .glass-hover {
+  position: relative;
+}
+@keyframes glass {
+  0% {
+    background-position: 120%;
+  }
+  100% {
+    background-position: -160%;
+  }
+}
+
+/* Styles for left-to-right direction */
+.MySite-Project[dir=ltr] #header {
+  left: 0px;
+}
+.MySite-Project[dir=ltr] #main {
+  margin-left: 300px;
+}
+@media (max-width: 1199px) {
+  .MySite-Project[dir=ltr] #header {
+    left: -300px;
+  }
+  .MySite-Project[dir=ltr] #main {
+    margin-left: 0;
+  }
+  .MySite-Project[dir=ltr] .container,
+  .MySite-Project[dir=ltr] .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+.MySite-Project[dir=ltr] .nav-menu a i,
+.MySite-Project[dir=ltr] .nav-menu a:focus i {
+  padding-right: 8px !important;
+}
+.MySite-Project[dir=ltr] .resume .resume-item {
+  padding: 0 0 20px 20px;
+  border-left: 2px solid darkgoldenrod;
+}
+.MySite-Project[dir=ltr] .resume .resume-item::before {
+  left: -9px;
+}
+.MySite-Project[dir=ltr] .btn-lang i {
+  padding-right: 5px;
+}
+.MySite-Project[dir=ltr] .mobile-nav-toggle {
+  right: 15px;
+}
+
+/* Styles for right-to-left direction */
+.MySite-Project[dir=rtl] {
+  font-family: "yekanbakh" !important;
+  /* استفاده از فونت در بدنه سند */
+}
+.MySite-Project[dir=rtl] #header {
+  right: 0px;
+}
+.MySite-Project[dir=rtl] #main {
+  margin-right: 300px;
+}
+@media (max-width: 1199px) {
+  .MySite-Project[dir=rtl] #header {
+    right: -300px;
+  }
+  .MySite-Project[dir=rtl] #main {
+    margin-right: 0;
+  }
+  .MySite-Project[dir=rtl] .container,
+  .MySite-Project[dir=rtl] .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+.MySite-Project[dir=rtl] .nav-menu a i,
+.MySite-Project[dir=rtl] .nav-menu a:focus i {
+  padding-left: 8px !important;
+}
+.MySite-Project[dir=rtl] .resume .resume-item {
+  padding: 0 20px 0 20px;
+  border-right: 2px solid darkgoldenrod;
+}
+.MySite-Project[dir=rtl] .resume .resume-item::before {
+  right: -9px;
+}
+.MySite-Project[dir=rtl] .btn-lang i {
+  padding-left: 5px;
+}
+.MySite-Project[dir=rtl] .mobile-nav-toggle {
+  left: 15px;
+}/*# sourceMappingURL=MySiteStyle.css?.map */

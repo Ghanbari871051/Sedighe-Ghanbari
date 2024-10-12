@@ -1,0 +1,11 @@
+.forgotPass-component .form-gap {
+  padding-top: 70px;
+}
+.forgotPass-component .forgotpass {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.forgotPass-component .forgotpass .form-group {
+  margin-top: 20px;
+}/*# sourceMappingURL=ForgottPassStyle.css?.map */

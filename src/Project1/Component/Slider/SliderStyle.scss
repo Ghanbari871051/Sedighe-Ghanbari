@@ -1,0 +1,59 @@
+.slider-component {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    .slider-image {
+        width: 100%;
+    }
+
+    .ol-slider {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        width: fit-content;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        li {
+            // display: inline;
+            color: white;
+            padding: 5px;
+        }
+
+    }
+
+    .ol-slider:hover {
+        cursor: pointer;
+    }
+
+    .prev:hover {
+        cursor: pointer;
+    }
+
+    .next:hover {
+        cursor: pointer;
+    }
+
+    .prev {
+        font-size: 80px;
+        position: absolute;
+        top: 50%;
+        left: 50px;
+        color: gray;
+
+    }
+
+    .next {
+        font-size: 80px;
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        color: gray;
+    }
+
+}

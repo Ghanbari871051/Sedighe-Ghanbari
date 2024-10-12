@@ -1,0 +1,18 @@
+.pagination-component .paging {
+  padding-top: 10px;
+}
+.pagination-component .paging .flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-component .paging .flex-right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.pagination-component .paging .flex-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}/*# sourceMappingURL=PaginationStyle.css?.map */

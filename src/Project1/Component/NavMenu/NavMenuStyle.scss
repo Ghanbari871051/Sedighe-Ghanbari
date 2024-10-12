@@ -1,0 +1,157 @@
+
+  .header-NavMenu-component {
+    .navbar {
+      justify-content: center !important;
+      position: unset !important;
+      padding: 0 !important;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 0px;
+    }
+
+    .navbar {
+      // overflow: hidden;
+      background-color: #333;
+      justify-content: flex-start;
+      position: unset;
+
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .subnav {
+      float: left;
+      position: unset;
+
+    }
+
+
+    .subnav .subnavbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .subnavbtn i {
+      padding-left: 5px;
+    }
+
+    .navbar a:hover,
+    .subnav:hover .subnavbtn {
+      background-color: whitesmoke;
+      color: #3f4064;
+    }
+
+    .subnav-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      background-color: whitesmoke;
+      width: 100%;
+      z-index: 1;
+      top: 50px;
+      // border: 2px solid whitesmoke;
+      border-radius: 2px;
+    }
+
+    .subnav-content a {
+      float: left;
+      color: #3f4064;
+      text-decoration: none;
+    }
+
+    .subnav-content a:hover {
+      background-color: #eee;
+      color: black;
+    }
+
+    .subnav:hover {
+      position: unset !important;
+    }
+
+    .subnav:hover>.subnav-content:nth-of-type(1) {
+      display: inline-block;
+    }
+
+  }
+
+  .header-NavMenuMobile-component {
+
+    ul,
+    ol,
+    li {
+      list-style-type: none;
+    }
+
+    .navigation {
+      position: relative;
+    }
+
+    .activeLiMain {
+      color: blue !important;
+
+    }
+
+    .activeLiSub {
+      color: blue !important;
+
+    }
+
+    .UI {
+      z-index: 2;
+
+      .txt {
+        text-decoration: none;
+        color: black;
+      }
+
+      .txt:hover {
+        color: red;
+      }
+
+      .txt:active {
+        color: orange;
+      }
+
+    }
+
+    .navigation-collapse {
+      position: absolute;
+      top: 25px;
+      background-color: whitesmoke;
+      padding: 10px;
+      min-width: 250px;
+    }
+
+    .collapse-ul {
+      padding: 0px;
+      padding-left: 15px;
+    }
+
+    .a-div {
+      padding-top: 5px;
+
+      a {
+        color: black;
+
+        i {
+          padding-left: 5px;
+        }
+      }
+    }
+
+  }

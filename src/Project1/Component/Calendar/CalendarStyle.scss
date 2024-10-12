@@ -1,0 +1,27 @@
+.calendar-component {
+    position: relative;
+    width: fit-content;
+
+    .taghvim-textbox {
+        position: relative;
+        i{
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            color: #A1E2D9;
+
+        }
+    }
+
+    .taghvim {
+        position: absolute;
+        left: 0;
+    }
+
+    .taghvim[dir=rtl] {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+
+}

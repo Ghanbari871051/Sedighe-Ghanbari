@@ -1,0 +1,12 @@
+.Favorite-component {
+
+    display: inline;
+    position: relative;
+
+    i{
+        margin: 0 15px;
+    }
+    i:hover {
+        cursor: pointer;
+    }
+}

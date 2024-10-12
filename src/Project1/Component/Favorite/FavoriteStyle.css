@@ -1,0 +1,10 @@
+.Favorite-component {
+  display: inline;
+  position: relative;
+}
+.Favorite-component i {
+  margin: 0 15px;
+}
+.Favorite-component i:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=FavoriteStyle.css?.map */

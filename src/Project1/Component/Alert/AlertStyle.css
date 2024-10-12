@@ -1,0 +1,14 @@
+.alert-component {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.alert-component .AlertClose {
+  margin-left: 10px;
+}
+
+.alert-component-Noshow {
+  display: none;
+}/*# sourceMappingURL=AlertStyle.css?.map */

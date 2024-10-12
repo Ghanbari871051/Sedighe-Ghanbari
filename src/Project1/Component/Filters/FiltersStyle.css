@@ -1,0 +1,234 @@
+.filter-component .FilterSide {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: #F9FBFF;
+}
+.filter-component .filters {
+  width: 300px;
+  padding: 15px;
+  position: relative;
+}
+.filter-component .filters .showFilters {
+  position: fixed;
+  right: 100px;
+  top: 100px;
+}
+.filter-component .filters .filterItem {
+  width: 100%;
+  margin-top: 10px;
+}
+.filter-component .filters .filterItem .title {
+  background-color: whitesmoke;
+  color: #999;
+  border: 1px solid whitesmoke;
+  border-radius: 3px !important;
+  width: 100%;
+  text-align: left;
+}
+.filter-component .filters .filterItem .card-body {
+  border-radius: 0px 0px 5px 5px;
+}
+.filter-component .filters .color {
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+.filter-component .filters .price {
+  margin-top: 15px;
+  background-color: whitesmoke;
+  color: #999;
+  /* Reset style for input range */
+  /* Style toddler input range */
+  /* Style track input range */
+  /* Style for input value block */
+  /* Style for active state input */
+}
+.filter-component .filters .price body {
+  font-family: "Karla", "Arial", sans-serif;
+  font-weight: 500;
+}
+.filter-component .filters .price p {
+  padding: 0;
+  margin: 0;
+}
+.filter-component .filters .price .wrapper {
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  padding-top: 20px;
+}
+.filter-component .filters .price .filter-price {
+  width: 220px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.filter-component .filters .price .price-title {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+.filter-component .filters .price .price-field {
+  position: relative;
+  width: 100%;
+  height: 36px;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-left: 16px;
+  border-radius: 3px;
+  z-index: 0;
+}
+.filter-component .filters .price .price-field input[type=range] {
+  position: absolute;
+}
+.filter-component .filters .price .price-field input[type=range] {
+  width: 188px;
+  height: 2px;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  pointer-events: none;
+}
+.filter-component .filters .price .price-field input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+.filter-component .filters .price .price-field input[type=range]:active,
+.filter-component .filters .price .price-field input[type=range]:focus {
+  outline: 0;
+}
+.filter-component .filters .price .price-field input[type=range]::-ms-track {
+  width: 188px;
+  height: 2px;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  pointer-events: none;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+  border-radius: 5px;
+}
+.filter-component .filters .price .price-field input[type=range]::-webkit-slider-thumb {
+  /* WebKit/Blink */
+  position: relative;
+  -webkit-appearance: none;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-top: -4px;
+  cursor: pointer;
+  cursor: pointer;
+  pointer-events: all;
+  z-index: 100;
+}
+.filter-component .filters .price .price-field input[type=range]::-moz-range-thumb {
+  /* Firefox */
+  position: relative;
+  -moz-appearance: none;
+       appearance: none;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-top: -5px;
+  cursor: pointer;
+  cursor: pointer;
+  pointer-events: all;
+  z-index: 100;
+}
+.filter-component .filters .price .price-field input[type=range]::-ms-thumb {
+  /* IE */
+  position: relative;
+  appearance: none;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-top: -5px;
+  cursor: pointer;
+  cursor: pointer;
+  pointer-events: all;
+  z-index: 100;
+}
+.filter-component .filters .price .price-field input[type=range]::-webkit-slider-runnable-track {
+  /* WebKit/Blink */
+  width: 188px;
+  height: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.filter-component .filters .price .price-field input[type=range]::-moz-range-track {
+  /* Firefox */
+  width: 188px;
+  height: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.filter-component .filters .price .price-field input[type=range]::-ms-track {
+  /* IE */
+  width: 188px;
+  height: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.filter-component .filters .price .price-wrap {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.2em;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+.filter-component .filters .price .price-wrap-1,
+.filter-component .filters .price .price-wrap-2 {
+  display: flex;
+}
+.filter-component .filters .price .price-title {
+  margin-right: 5px;
+  background-color: #d58e32;
+  color: whitesmoke;
+}
+.filter-component .filters .price .price-wrap_line {
+  margin: 0 10px;
+}
+.filter-component .filters .price .price-wrap #one,
+.filter-component .filters .price .price-wrap #two {
+  width: 30px;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  margin-right: 2px;
+  background: 0;
+  border: 0;
+  outline: 0;
+  font-family: "Karla", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+.filter-component .filters .price .price-wrap label {
+  text-align: right;
+}
+.filter-component .filters .price .price-field input[type=range]:hover::-webkit-slider-thumb {
+  box-shadow: 0 0 0 0.5px #fff;
+  transition-duration: 0.3s;
+}
+.filter-component .filters .price .price-field input[type=range]:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 0.5px #fff;
+  transition-duration: 0.3s;
+}/*# sourceMappingURL=FiltersStyle.css?.map */

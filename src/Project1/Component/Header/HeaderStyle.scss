@@ -1,0 +1,48 @@
+.header-component {
+	background-color: #333;
+	// margin-bottom: 5px;
+	position: relative;
+	color: whitesmoke;
+
+	.UI {
+		z-index: 8;
+	}
+
+	@media only screen and (max-width:767px) {
+		.nav-menu-header {
+			display: none !important;
+		}
+
+		.mobile-menu-header {
+			display: flex !important;
+		}
+	}
+
+	@media only screen and (min-width:768px) {
+		.nav-menu-header {
+			display: flex !important;
+		}
+
+		.mobile-menu-header {
+			display: none !important;
+		}
+	}
+
+
+	.headermail {
+		color: whitesmoke;
+		margin-left: 15px;
+	}
+
+	.headermail:hover {
+		color: #A1E2D9;
+	}
+
+	.unsetPosition {
+		position: unset !important;
+	}
+
+	.pad-p {
+		padding-right: 15px;
+	}
+}

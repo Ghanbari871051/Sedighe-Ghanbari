@@ -1,0 +1,70 @@
+.ProductDetails {
+  width: 100%;
+  padding: 30px 60px;
+}
+@media (max-width: 1199px) {
+  .ProductDetails {
+    padding: 30px 15px 30px 0px !important;
+  }
+}
+.ProductDetails .tab-ul {
+  margin: 15px 0px;
+}
+.ProductDetails .rounded-4 {
+  max-width: 500px;
+  max-height: 350px;
+}
+.ProductDetails .rounded-4 img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.ProductDetails .imgList {
+  margin-left: 5px;
+}
+.ProductDetails .select1 {
+  height: 35px;
+}
+.ProductDetails .input-group {
+  width: 170px;
+}
+.ProductDetails .mybtn {
+  margin-left: 5px;
+}
+.ProductDetails .img2 {
+  min-width: 96px;
+  height: 96px;
+}
+.ProductDetails .img3 {
+  min-width: 96px;
+  height: 96px;
+}
+.ProductDetails .img4 {
+  min-width: 96px;
+  height: 96px;
+}
+.ProductDetails .img5 {
+  min-width: 96px;
+  height: 96px;
+}
+.ProductDetails .countre {
+  width: 50px;
+  height: 35px;
+  margin: 0;
+}
+.ProductDetails .txt {
+  height: 35px;
+  margin: 0;
+}
+.ProductDetails .text-share {
+  color: #A1E2D9;
+  font-size: 13px;
+}
+.ProductDetails .my-Heart {
+  background-color: #ced4da;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  margin-left: 5px;
+  padding: 7px 15px;
+  font-size: 20px;
+}/*# sourceMappingURL=ProductCardDetailsStyle.css?.map */

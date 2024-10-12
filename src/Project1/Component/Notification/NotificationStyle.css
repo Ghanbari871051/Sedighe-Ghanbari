@@ -1,0 +1,21 @@
+.NotificationIcon-component {
+  position: relative;
+}
+.NotificationIcon-component .count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: whitesmoke;
+  padding: 2px 3px;
+  border-radius: 15%;
+  font-size: 10px;
+}
+.NotificationIcon-component .showNotification {
+  position: absolute;
+  color: black;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  width: 70vw;
+}/*# sourceMappingURL=NotificationStyle.css?.map */

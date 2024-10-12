@@ -1,0 +1,34 @@
+.Modal-DataGridComponent .my_modal {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  z-index: 6;
+}
+.Modal-DataGridComponent .my_modal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Parent opacity color */
+}
+.Modal-DataGridComponent .my_modal-content {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px;
+  background-color: whitesmoke;
+  min-width: 50vw;
+  z-index: 6;
+  margin: 10px;
+  position: relative;
+}
+.Modal-DataGridComponent .my_modal-content .close {
+  position: absolute;
+  right: 5px;
+}/*# sourceMappingURL=Modal.css?.map */

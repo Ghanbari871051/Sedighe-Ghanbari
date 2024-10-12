@@ -1,0 +1,40 @@
+.queikView {
+
+    // padding: 4vw 10vw;
+    // background-color: rgba(0, 0, 0, 0.2);
+    .btn_view {
+        margin-left: 5px;
+    }
+
+    .inner {
+        margin: 0;
+        padding: 15px;
+        background-color: whitesmoke;
+    }
+
+    .product_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+            max-height: 300px;
+        }
+
+        .all_image {
+            max-width: 100%;
+            max-height: 300px;
+            margin-top: 10px;
+        }
+
+        .all_image-div {
+            max-height: 300px;
+            overflow: scroll;
+        }
+    }
+
+    .btn-ground {
+        margin-top: 15px;
+    }
+}

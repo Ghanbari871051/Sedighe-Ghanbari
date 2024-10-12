@@ -1,0 +1,1186 @@
+{
+  "mainGroup": [
+    {
+      "id": 2,
+      "name": "Food",
+      "name_Italy": "it_Food",
+      "name_japan": "ja_Food",
+      "parentID": null
+    },
+    {
+      "id": 3,
+      "name": "Goods1",
+      "name_Italy": "it_Goods",
+      "name_japan": "ja_Goods",
+      "parentID": null
+    },
+    {
+      "id": 10,
+      "name": "Samples",
+      "name_Italy": "it_Table",
+      "name_japan": "ja_Table",
+      "parentID": null
+    },
+    {
+      "id": 4,
+      "name": "Table",
+      "name_Italy": "it_Table",
+      "name_japan": "ja_Table",
+      "parentID": null
+    },
+    {
+      "id": 1,
+      "name": "Project",
+      "name_Italy": "it_Project",
+      "name_japan": "ja_Project",
+      "parentID": null
+    },
+    {
+      "id": 5,
+      "name": "lap Topww",
+      "name_Italy": "it_lap Top",
+      "name_japan": "ja_lap Top",
+      "parentID": 3
+    },
+    {
+      "id": 6,
+      "name": "Mobile",
+      "name_Italy": "it_Mobile",
+      "name_japan": "ja_Mobile",
+      "parentID": 3
+    },
+    {
+      "id": 7,
+      "name": "FastFood",
+      "name_Italy": "it_FastFood",
+      "name_japan": "ja_FastFood",
+      "parentID": 2
+    },
+    {
+      "id": 8,
+      "name": "Dessert",
+      "name_Italy": "it_Dessert",
+      "name_japan": "ja_Dessert",
+      "parentID": 2
+    },
+    {
+      "id": 9,
+      "name": "Drink",
+      "name_Italy": "it_Drink",
+      "name_japan": "ja_Drink",
+      "parentID": 2
+    }
+  ],
+  "companyInfo": {
+    "name": "sgh",
+    "email": "info@bonshad.com",
+    "mobile": "9151250498",
+    "tel": "05136235279",
+    "brand": "bonshad",
+    "logo": "img_avatar.png"
+  },
+  "langList": [
+    {
+      "id": 1,
+      "name": "English"
+    },
+    {
+      "id": 3,
+      "name": "Italian"
+    },
+    {
+      "id": 4,
+      "name": "Japanese"
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "username": "sgh",
+      "password": "1",
+      "email": "sedigheq.ghanbary@gmail.com",
+      "name": "sedighe",
+      "avatar": "avatar.jfif",
+      "token": "sgh123",
+      "isVerified": false,
+      "phone": "0589648525",
+      "website": "www.example.com",
+      "about": "I'm Yuki. Full Stack Designer I enjoy creating user-centric, delightful and human experiences."
+    },
+    {
+      "username": "sgh123",
+      "password": "111111",
+      "email": "sedighe.ghanbary@gmail.com",
+      "name": "sedighe Ghanbari",
+      "avatar": "avatar.jfif",
+      "token": "token_oog0hp",
+      "isVerified": false,
+      "phone": "0589648525",
+      "website": "www.example.com",
+      "id": 2,
+      "about": "I'm Yuki. Full Stack Designer I enjoy creating user-centric, delightful and human experiences."
+    }
+  ],
+  "Products_MainGroup": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "mainGroupID": 1
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "mainGroupID": 1
+    }
+  ],
+  "sidebarMenu": [
+    {
+      "id": 200,
+      "name": "mobile-test",
+      "icon": "fa fa-info",
+      "url": "AProject_1",
+      "mainGroupID": 300,
+      "parentID": null
+    },
+    {
+      "id": 70,
+      "name": "MainGroupTable",
+      "icon": "fa fa-info",
+      "url": "MainGroupTable",
+      "mainGroupID": 4,
+      "parentID": null
+    },
+    {
+      "id": 80,
+      "name": "Template",
+      "icon": "fa fa-info",
+      "url": "Template",
+      "mainGroupID": 10,
+      "parentID": null
+    },
+    {
+      "id": 71,
+      "name": "ProductTable",
+      "icon": "fa fa-info",
+      "url": "ProductTable",
+      "mainGroupID": 4,
+      "parentID": null
+    },
+    {
+      "id": 20,
+      "name": "AProject_1",
+      "icon": "fa fa-info",
+      "url": "AProject_1",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 21,
+      "name": "GenerateFakeData",
+      "icon": "fa fa-info",
+      "url": "GenerateFakeData",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 1,
+      "name": "Comment",
+      "icon": "fa fa-comments",
+      "url": "Comment",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 203,
+      "name": "Data Grid",
+      "icon": "fa fa-home",
+      "url": "DataGrid",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 23,
+      "name": "Comment",
+      "icon": "fa fa-comments",
+      "url": "Comment",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 429,
+      "name": "Profile",
+      "icon": "fa fa-camera-retro",
+      "url": "Profile",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 426,
+      "name": "ShoppingCard",
+      "icon": "fa fa-camera-retro",
+      "url": "ShoppingCard",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 427,
+      "name": "MyOrders",
+      "icon": "fa fa-camera-retro",
+      "url": "MyOrders",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 425,
+      "name": "MyFavorite",
+      "icon": "fa fa-camera-retro",
+      "url": "MyFavorite",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 423,
+      "name": "MyComments",
+      "icon": "fa fa-camera-retro",
+      "url": "MyComments",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 424,
+      "name": "MyTickets",
+      "icon": "fa fa-camera-retro",
+      "url": "MyTickets",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 4,
+      "name": "Registration",
+      "icon": "fa fa-camera-retro",
+      "url": "Registration",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 2,
+      "name": "ProductCard",
+      "icon": "fa fa-film",
+      "url": "ProductCard",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 6,
+      "name": "ProductDetails",
+      "icon": "fa fa-book",
+      "url": "ProductDetails",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 7,
+      "name": "UserReviews",
+      "icon": "fa fa-cogs",
+      "url": "UserReviews",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 8,
+      "name": "SubmitReview",
+      "icon": "fa fa-map-marker",
+      "url": "SubmitReview",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 234,
+      "name": "Filters",
+      "icon": "fa fa-info",
+      "url": "Filters",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 14,
+      "name": "SetForChat",
+      "icon": "fa fa-info",
+      "url": "SetForChat",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 104,
+      "name": "AboutUs",
+      "icon": "fa fa-info",
+      "url": "AboutUs",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 105,
+      "name": "Page404",
+      "icon": "fa fa-info",
+      "url": "Page404",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 106,
+      "name": "FAQ",
+      "icon": "fa fa-info",
+      "url": "FAQ",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 107,
+      "name": "ShareURL",
+      "icon": "fa fa-info",
+      "url": "ShareURL",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 15,
+      "name": "VideoShow",
+      "icon": "fa fa-info",
+      "url": "VideoShow",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 16,
+      "name": "Calendar",
+      "icon": "fa fa-info",
+      "url": "Calendar",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 17,
+      "name": "Map",
+      "icon": "fa fa-info",
+      "url": "Map",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 18,
+      "name": "ShoppingBasket",
+      "icon": "fa fa-info",
+      "url": "ShoppingBasket",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 19,
+      "name": "LoginHtml",
+      "icon": "fa fa-info",
+      "url": "LoginHtml",
+      "mainGroupID": 1,
+      "parentID": null
+    },
+    {
+      "id": 10,
+      "name": "Sub-1",
+      "icon": "fa fa-info",
+      "url": "#",
+      "mainGroupID": 1,
+      "parentID": 3
+    },
+    {
+      "id": 11,
+      "name": "sub-2",
+      "icon": "fa fa-info",
+      "url": "#",
+      "mainGroupID": 1,
+      "parentID": 3
+    },
+    {
+      "id": 13,
+      "name": "sub-2-1",
+      "icon": "fa fa-info",
+      "url": "#",
+      "mainGroupID": 1,
+      "parentID": 11
+    }
+  ],
+  "Filter_Value": [
+    {
+      "id": 1,
+      "filter_id": 1,
+      "value": "red"
+    },
+    {
+      "id": 2,
+      "filter_id": 1,
+      "value": "green"
+    },
+    {
+      "id": 3,
+      "filter_id": 1,
+      "value": "blue"
+    },
+    {
+      "id": 4,
+      "filter_id": 2,
+      "value": "lG"
+    },
+    {
+      "id": 5,
+      "filter_id": 2,
+      "value": "sumsung"
+    },
+    {
+      "id": 6,
+      "filter_id": 3,
+      "value": "female"
+    },
+    {
+      "id": 7,
+      "filter_id": 3,
+      "value": "male"
+    },
+    {
+      "id": 8,
+      "filter_id": 4,
+      "value": "XS"
+    },
+    {
+      "id": 9,
+      "filter_id": 4,
+      "value": "L"
+    },
+    {
+      "id": 10,
+      "filter_id": 4,
+      "value": "XL"
+    }
+  ],
+  "Filter_AssignToGroupAndSubGroup": [
+    {
+      "id": "1",
+      "filter_id": "1",
+      "mainGroup_ids": [
+        {
+          "mainGroupID": 1
+        },
+        {
+          "mainGroupID": "2"
+        },
+        {
+          "mainGroupID": "3"
+        }
+      ],
+      "sidebar_ids": [
+        {
+          "sidebarID": "2"
+        },
+        {
+          "sidebarID": "2"
+        },
+        {
+          "sidebarID": "3"
+        }
+      ],
+      "showFilter": "true"
+    },
+    {
+      "id": "2",
+      "filter_id": "2",
+      "mainGroup_ids": [
+        {
+          "mainGroupID": 1
+        },
+        {
+          "mainGroupID": "2"
+        },
+        {
+          "mainGroupID": "3"
+        }
+      ],
+      "sidebar_ids": [
+        {
+          "sidebarID": "2"
+        },
+        {
+          "sidebarID": "2"
+        },
+        {
+          "sidebarID": "3"
+        }
+      ],
+      "showFilter": "true"
+    },
+    {
+      "id": "3",
+      "filter_id": "3",
+      "mainGroup_ids": [
+        {
+          "mainGroupID": 1
+        },
+        {
+          "mainGroupID": "2"
+        },
+        {
+          "mainGroupID": "3"
+        }
+      ],
+      "sidebar_ids": [
+        {
+          "sidebarID": "2"
+        },
+        {
+          "sidebarID": "2"
+        },
+        {
+          "sidebarID": "3"
+        }
+      ],
+      "showFilter": "true"
+    }
+  ],
+  "Filter_Product": [
+    {
+      "ID": 4,
+      "IDForUniq": 2,
+      "ProductID": 1,
+      "Filter_ID": 1,
+      "Filter_Value": 2
+    },
+    {
+      "ID": 7,
+      "IDForUniq": 2,
+      "ProductID": 1,
+      "Filter_ID": 4,
+      "Filter_Value": 9
+    },
+    {
+      "ID": 10,
+      "IDForUniq": 2,
+      "ProductID": 1,
+      "Filter_ID": 1002,
+      "Filter_Value": 50
+    },
+    {
+      "ID": 13,
+      "IDForUniq": 2,
+      "ProductID": 1,
+      "Filter_ID": 1003,
+      "Filter_Value": 5000
+    },
+    {
+      "ID": 1008,
+      "IDForUniq": 2,
+      "ProductID": 1,
+      "Filter_ID": 1004,
+      "Filter_Value": 20
+    },
+    {
+      "ID": 8,
+      "IDForUniq": 3,
+      "ProductID": 1,
+      "Filter_ID": 1,
+      "Filter_Value": 2
+    },
+    {
+      "ID": 9,
+      "IDForUniq": 3,
+      "ProductID": 1,
+      "Filter_ID": 4,
+      "Filter_Value": 8
+    },
+    {
+      "ID": 11,
+      "IDForUniq": 3,
+      "ProductID": 1,
+      "Filter_ID": 1002,
+      "Filter_Value": 170
+    },
+    {
+      "ID": 14,
+      "IDForUniq": 3,
+      "ProductID": 1,
+      "Filter_ID": 1003,
+      "Filter_Value": 8000
+    },
+    {
+      "ID": 12,
+      "IDForUniq": 4,
+      "ProductID": 1,
+      "Filter_ID": 1,
+      "Filter_Value": 3
+    },
+    {
+      "ID": 15,
+      "IDForUniq": 4,
+      "ProductID": 1,
+      "Filter_ID": 1003,
+      "Filter_Value": 10000
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "title": "Oriental Concrete Hat ",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "selectOption": false
+    },
+    {
+      "id": 2,
+      "title": "Gorgeous Fresh Shirt",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "selectOption": true
+    },
+    {
+      "id": 3,
+      "title": "Gorgeous Frozen Chicken",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "selectOption": true
+    },
+    {
+      "id": 4,
+      "title": "Ergonomic Steel Salad",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "selectOption": false
+    },
+    {
+      "id": 5,
+      "title": "Licensed Plastic Chicken",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "selectOption": false
+    }
+  ],
+  "Comments": [
+    {
+      "id": 1,
+      "avatar": "Images/avatar.jfif",
+      "date": "10-FEB-2015",
+      "time": "12:00",
+      "senderID": 2,
+      "comment": "1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?",
+      "productID": "1",
+      "commentID": "1",
+      "parentID": null,
+      "name": "1 mobile-test",
+      "icon": "fa fa-info",
+      "url": "AProject_1"
+    },
+    {
+      "id": 2,
+      "avatar": "Images/avatar.jfif",
+      "date": "10-FEB-2015",
+      "time": "12:00",
+      "senderID": 2,
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?",
+      "productID": "1",
+      "commentID": "1",
+      "parentID": 1,
+      "name": "mobile-test",
+      "icon": "fa fa-info",
+      "url": "AProject_1"
+    },
+    {
+      "id": 3,
+      "avatar": "Images/avatar.jfif",
+      "date": "10-FEB-2015",
+      "time": "12:00",
+      "senderID": 2,
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?",
+      "productID": "1",
+      "commentID": "1",
+      "parentID": 1,
+      "name": "mobile-test",
+      "icon": "fa fa-info",
+      "url": "AProject_1"
+    },
+    {
+      "id": 4,
+      "avatar": "Images/avatar.jfif",
+      "date": "10-FEB-2015",
+      "time": "12:00",
+      "senderID": 2,
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?",
+      "productID": "1",
+      "commentID": "1",
+      "parentID": 2,
+      "name": "mobile-test",
+      "icon": "fa fa-info",
+      "url": "AProject_1"
+    },
+    {
+      "id": 5,
+      "avatar": "Images/avatar.jfif",
+      "date": "10-FEB-2015",
+      "time": "12:00",
+      "senderID": 2,
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?",
+      "productID": "1",
+      "commentID": "1",
+      "parentID": null,
+      "name": "mobile-test",
+      "icon": "fa fa-info",
+      "url": "AProject_1"
+    }
+  ],
+  "productImage": [
+    {
+      "id": 12345,
+      "productID": 1,
+      "imgURL": "2.jpg"
+    },
+    {
+      "id": 12345,
+      "productID": 2,
+      "imgURL": "2.jpg"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 12345,
+      "title": "Bug in Login Page",
+      "description": "Users are unable to log in after entering incorrect credentials.",
+      "status": "Open",
+      "sender": "Adam Johnson",
+      "createDate": "2 weeks ago",
+      "lastUpdateDate": "1 Hours Ago",
+      "type": "Issue",
+      "priority": "high",
+      "responses": [
+        {
+          "avatar": "avatar.jfif",
+          "name": "Daniel Adams",
+          "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        },
+        {
+          "avatar": "avatar.jfif",
+          "name": "Jacob Hammond, Staff",
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi."
+        },
+        {
+          "avatar": "avatar.jfif",
+          "name": "Jacob Hammond, Staff",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    },
+    {
+      "id": 39570,
+      "title": "cdcsd",
+      "description": "cdscds",
+      "attachFileName": "file-1707814847955.jfif",
+      "type": "Inquiry",
+      "priority": "Middle",
+      "status": "open",
+      "sender": 2,
+      "createDate": "2024-02-13T09:00:37.753Z",
+      "lastUpdateDate": "2024-02-13T09:00:37.753Z",
+      "responses": []
+    },
+    {
+      "id": 23437,
+      "title": "eee",
+      "description": "eeee",
+      "attachFileName": "",
+      "type": "Issue",
+      "priority": "Middle",
+      "status": "close",
+      "sender": 2,
+      "createDate": "2024-02-13T09:27:27.759Z",
+      "lastUpdateDate": "2024-02-13T09:27:27.759Z",
+      "responses": []
+    },
+    {
+      "id": 98389,
+      "title": "",
+      "description": "",
+      "attachFileName": "",
+      "type": "",
+      "priority": "",
+      "status": "open",
+      "sender": 2,
+      "createDate": "2024-02-13T10:18:45.342Z",
+      "lastUpdateDate": "2024-02-13T10:18:45.342Z",
+      "responses": []
+    },
+    {
+      "id": 98001,
+      "title": "",
+      "description": "",
+      "attachFileName": "",
+      "type": "",
+      "priority": "",
+      "status": "open",
+      "sender": 2,
+      "createDate": "2024-02-13T10:56:01.807Z"
+    },
+    {
+      "id": 45650,
+      "title": "",
+      "description": "",
+      "attachFileName": "",
+      "type": "",
+      "priority": "",
+      "status": "open",
+      "createDate": "2024-02-13T11:00:21.162Z"
+    },
+    {
+      "id": 30771,
+      "title": "hjhdggghghg",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "attachFileName": "",
+      "type": "Request",
+      "priority": "High",
+      "status": "open",
+      "sender": 2,
+      "createDate": "2024-02-13T11:02:21.723Z"
+    }
+  ],
+  "ticketResponses": [
+    {
+      "id": 10000,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "",
+      "sender": 2,
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    },
+    {
+      "id": 10001,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "",
+      "sender": 2,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi."
+    },
+    {
+      "id": 10002,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "file-1707814847955.jfif",
+      "sender": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 64631,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "",
+      "sender": 2,
+      "description": "787878"
+    },
+    {
+      "id": 41534,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "",
+      "sender": 2,
+      "description": "787878"
+    },
+    {
+      "id": 85222,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "",
+      "sender": 2,
+      "description": "787878"
+    },
+    {
+      "id": 76302,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "",
+      "sender": 2,
+      "description": "sss123"
+    },
+    {
+      "id": 15716,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "",
+      "sender": 2,
+      "description": "sss123"
+    },
+    {
+      "id": 42383,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "",
+      "sender": 2,
+      "description": "sss123"
+    },
+    {
+      "id": 89132,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "",
+      "sender": 2,
+      "description": "222"
+    },
+    {
+      "id": 81298,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "",
+      "sender": 2,
+      "description": "sdcsdcdc"
+    },
+    {
+      "id": 41861,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "file-1707825222595.jfif",
+      "sender": 2,
+      "description": "wqwq"
+    },
+    {
+      "id": 61597,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "file-1707827093986.jfif",
+      "sender": 2,
+      "description": "cdcdvfvf"
+    },
+    {
+      "id": 53487,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "file-1707827093986.jfif",
+      "sender": 2,
+      "description": "123456"
+    },
+    {
+      "id": 93198,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "file-1707827093986.jfif",
+      "sender": 2,
+      "description": "123456"
+    },
+    {
+      "id": 30886,
+      "ticketID": 30771,
+      "parentID": null,
+      "attachFileName": "file-1707827163100.jfif",
+      "sender": 2,
+      "description": "sasa"
+    },
+    {
+      "id": 87539,
+      "ticketID": 39570,
+      "parentID": null,
+      "attachFileName": "file-1707828789062.jfif",
+      "sender": 2,
+      "description": "12222"
+    }
+  ],
+  "Favorite": [
+    {
+      "id": 96749,
+      "productID": 1,
+      "userID": 2
+    },
+    {
+      "id": 94136
+    },
+    {
+      "id": 66192
+    },
+    {
+      "id": 49166
+    },
+    {
+      "id": 27598
+    }
+  ],
+  "orders": [
+    {
+      "id": 83005,
+      "userID": 2,
+      "price": 20000,
+      "discount": 4000,
+      "deliverPrise": 0,
+      "paymentDate": "2024-02-18T09:36:10.592Z",
+      "paymentType": "online",
+      "FollowPaymentID": 98324,
+      "status": "delivered"
+    }
+  ],
+  "orderDetails": [
+    {
+      "id": 35392,
+      "orderID": 83005,
+      "productID": 1,
+      "price": 5000,
+      "discount": 20,
+      "payPrice": 4000,
+      "deliverPrise": 0,
+      "FollowPaymentID": 64755,
+      "filtersDes": "color : green   ,",
+      "productImage": "2.jpg",
+      "productTitle":"Oriental Concrete Hat",
+      "productCount": 4
+    },
+    {
+      "id": 80537,
+      "orderID": 83005,
+      "productID": 2,
+      "price": 0,
+      "payPrice": 0,
+      "deliverPrise": 0,
+      "FollowPaymentID": 34735,
+      "productImage": "2.jpg",
+      "productTitle": "Gorgeous Fresh Shirt",
+      "productCount": 1
+    }
+  ],
+  "shoppingCard": [
+    {
+      "id": 65971,
+      "productID": 2,
+      "userID": 2,
+      "count": 1,
+      "filtersIDForUniq": null,
+      "CreateDate": "2024-02-18T10:10:36.879Z"
+    }
+  ],
+  "Filter_List": [
+    {
+      "filter_id": 1,
+      "filter_name": "color"
+    },
+    {
+      "filter_id": 2,
+      "filter_name": "brand"
+    },
+    {
+      "filter_id": 3,
+      "filter_name": "gender"
+    },
+    {
+      "filter_id": 4,
+      "filter_name": "size"
+    },
+    {
+      "filter_id": 1002,
+      "filter_name": "count"
+    },
+    {
+      "filter_id": 1003,
+      "filter_name": "price"
+    },
+    {
+      "filter_id": 1004,
+      "filter_name": "off"
+    }
+  ],
+  "notification": [
+    {
+      "id": 12345,
+      "title": "demonstrate the visual form of a document",
+      "msg": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to",
+      "url": "www.google.com"
+    },
+    {
+      "id": 12346,
+      "title": "demonstrate the visual form of a document",
+      "msg": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to",
+      "url": "http://www.google.com"
+    }
+  ],
+  "notificationUsers": [
+    {
+      "id": 12345,
+      "notificationID": 12345,
+      "userID": 2,
+      "IsView": true
+    },
+    {
+      "id": 12348,
+      "notificationID": 12346,
+      "userID": 2,
+      "IsView": false
+    }
+  ],
+  "Filter_MainGroup": [
+    {
+      "id": 1,
+      "filter_id": 1,
+      "mainGroupID": 1
+    },
+    {
+      "id": 2,
+      "filter_id": 1,
+      "mainGroupID": 2
+    },
+    {
+      "id": 3,
+      "filter_id": 1,
+      "mainGroupID": 3
+    },
+    {
+      "id": 4,
+      "filter_id": 2,
+      "mainGroupID": 1
+    },
+    {
+      "id": 5,
+      "filter_id": 2,
+      "mainGroupID": 2
+    },
+    {
+      "id": 6,
+      "filter_id": 2,
+      "mainGroupID": 3
+    },
+    {
+      "id": 7,
+      "filter_id": 3,
+      "mainGroupID": 1
+    },
+    {
+      "id": 8,
+      "filter_id": 3,
+      "mainGroupID": 2
+    },
+    {
+      "id": 9,
+      "filter_id": 3,
+      "mainGroupID": 3
+    }
+  ],
+  "Filter_sidebar": [
+    {
+      "id": 1,
+      "filter_id": 1,
+      "sidebarID": 2
+    },
+    {
+      "id": 2,
+      "filter_id": 1,
+      "sidebarID": 3
+    },
+    {
+      "id": 3,
+      "filter_id": 2,
+      "sidebarID": 2
+    },
+    {
+      "id": 4,
+      "filter_id": 2,
+      "sidebarID": 3
+    },
+    {
+      "id": 5,
+      "filter_id": 3,
+      "sidebarID": 2
+    },
+    {
+      "id": 6,
+      "filter_id": 3,
+      "sidebarID": 3
+    }
+  ]
+}
